@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youth choice</title>
+  <script src="https://kit.fontawesome.com/b96d5edcf0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="hi.css">
+</head>
+
+<body>
+<section id="banner">
+  <div class="logo">y-choice</div>
+  <div class="text">
+    <h1>YOUTH CHOICE</h1>
+    <p>এখানে উন্নত পদ্ধতিতে যত্ন সহকারে চুল কাটা হয়।</p>
+    <div class="btn">
+      <a href=""><span></span> about</a>
+      <a href=""><span></span> us</a>
+      
+    </div>
+  </div>
+</section>
+
+<div id="sidenav">
+  <nav>
+    <ul>
+      <li><a href="">call</a></li>
+      <li><a href="">picture</a></li>
+      <li><a href="">menu</a></li>
+      <li><a href="">contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+<div id="menubtn">
+<i class="fas fa-bars" id="fas"></i>
+</div>
+
+<script>
+    var menubtn = document.getElementById("menubtn")
+    var sidenav = document.getElementById("sidenav")
+    var fas = document.getElementById("fas")
+      sidenav.style.right = "-207px";
+    menubtn.onclick = function(){
+      if (sidenav.style.right == "-207px"){
+        sidenav.style.right = "0";
+      }
+       else {
+
+        sidenav.style.right = "-207px";
+
+      }
+    } 
+   
+</script>
+
+
+</body>
+
+</html>
